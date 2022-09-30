@@ -1,0 +1,33 @@
+.circled-button{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border: 1px solid gray;
+}
+ 
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 5rem;
+    width: 18rem;
+    text-align: center;
+}
+.card-img-top{
+    height: 20rem;
+    object-fit: contain;
+}
+
+.preview-image{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 15px;
+    background-color: rgb(85, 84, 84);
+    /* object-fit: contain; */
+    object-fit: fill;
+    padding: 0.5rem;
+}
